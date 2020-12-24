@@ -1,0 +1,74 @@
+.app{
+    font-family: 'Inter';
+    background: #212B31;
+    margin-top: 143px;
+}
+.app__title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--color-white);
+    padding-top: 143px;
+    padding-bottom: 50px;
+}
+.app__item{
+    max-width: 549px;
+    color: var(--color-white);
+    list-style: none;
+}
+.app__suptitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;  
+    position: relative;
+    
+}
+.app__suptitle::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: -40px;
+    top: 8px;
+  }
+.app__item p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0 24px ;
+    color: rgba(255, 255, 255, 0.75);
+}
+.col-5 img{
+    position: absolute;
+    right: 0;
+    top: 6350px;
+}
+.app .button{
+    margin-top: 50px;
+}
+.col-4{
+    text-align: center;
+    
+}
+.app__ttl{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--color-white);
+    margin: 20px 0 10px;
+}
+.app__dsc{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 340px;
+}
+.col-4 img{
+    margin-top: 127px;
+}

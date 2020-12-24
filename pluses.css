@@ -1,0 +1,49 @@
+.pluses{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+.pluses__title{
+font-size: 32px;
+
+font-weight: normal;
+line-height: 48px;
+margin-top: 136px;
+color: var(--color-darkblue);
+margin-bottom: 21px;
+}
+.pluses__description{
+font-size: 20px;
+line-height: 32px;
+color: var(--color-gray);
+max-width: 827px;
+max-height: 96px;
+margin: auto;
+}
+.pluses__ttl{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 95px 0 19px;
+    text-align: left;
+    color: var(--color-darkblue);
+}
+.pluses__desc{
+    font-size: 16px;
+    line-height: 24px;
+    width: 500px;
+    height: 96px;
+    text-align: left;
+    color: var(--color-gray);
+}
+.pluses__img--1{
+    margin: 130px 0 119px;
+}
+.pluses__img--2{
+    margin-bottom: 131px;
+}
+.pluses__img--3{
+    margin-top: 154px;
+}
