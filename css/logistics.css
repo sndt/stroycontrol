@@ -1,0 +1,31 @@
+.logistics .container {
+    position: relative;
+}
+.logistics img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 135px;
+}
+.log__des{
+    position: absolute;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 64px;
+    color: var(--color-darkblue);
+    width: 980px;
+    height: 128px;
+    margin: auto;
+    text-align: center;
+    top: 17%;
+    left: 4%;
+}
+.logistics button{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+.logistics button + button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}

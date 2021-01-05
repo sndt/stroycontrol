@@ -1,7 +1,7 @@
 .app{
     font-family: 'Inter';
-    background: #212B31;
     margin-top: 143px;
+    background: #212B31;
 }
 .app__title{
     font-style: normal;
@@ -71,4 +71,7 @@
 }
 .col-4 img{
     margin-top: 127px;
+}
+.app .container .row{
+    padding-bottom: 143px;
 }

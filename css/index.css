@@ -11,6 +11,14 @@
 @import './infolist.css';
 @import './reliability.css';
 @import './app.css';
+@import './work.css';
+@import './benefits.css';
+@import './box.css';
+@import './logistics.css';
+@import './footer.css';
+
+
+@import './vendors/slick.css';
 
 *{
     padding: 0;

@@ -18,19 +18,21 @@
     color: var(--color-white);
     background-color: var(--color-darkblue);
 }
-    .btn-white{
+.btn-white{
     color: var(--color-darkblue);
     background-color: var(--color-white);
     }
-    .btn-white:hover{
+.btn-white:hover{
     border: 1px solid transparent;
     background-color: var(--color-orange);
     }
-    .row{
+.row{
         display: flex;
     }
-    .col-4{
+.col-4{
         width: 34%;
     }
 
-    
+.col-7{
+     width: 58.33%;
+ }   

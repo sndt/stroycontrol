@@ -1,0 +1,15 @@
+.box{
+    margin: 127px 0 149px;
+    color: var(--color-gray);
+}
+.box--1, .box--2, .box--3{
+    margin: 0 80px 0 120px;
+    align-items: center;
+}
+
+.box--4{
+    text-align: center;
+    padding-top: 41px;
+    max-width: 139px;
+    margin: auto;
+}
