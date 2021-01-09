@@ -69,7 +69,7 @@
     color: rgba(255, 255, 255, 0.75);
     max-width: 340px;
 }
-.col-4 img{
+.app__img {
     margin-top: 127px;
 }
 .app .container .row{

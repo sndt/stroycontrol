@@ -8,4 +8,60 @@
     font-size: 15px;
     line-height: 24px;
     color: var(--color-gray);
+    padding: 30px 0 10px;
+}
+.footer__loc{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--color-gray);
+    padding-bottom: 20px;
+}
+.f__facebook{
+    margin-bottom: 160px;
+}
+.footer__line{
+    height: 0;
+	border: 2px solid #DADEDF;
+    
+}
+.f--1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-darkblue);
+    padding-bottom: 30px;
+    align-items: center;
+}
+.f--2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--color-gray);
+    padding-bottom: 18px;
+}
+.fdc{
+    padding-right: 160px;
+}
+.f__last, .f__lastt{
+    padding: 33px 0 33px;
+    display: inline-block;
+    
+}
+.f__last{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-gray);
+}
+.f__lastt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-gray);
+    float: right;
 }
