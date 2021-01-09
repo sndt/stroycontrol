@@ -34,3 +34,10 @@ body{
     max-width: 1056px;
     margin: 0 auto;
 }
+
+
+ @media screen and (max-width: 576px){
+     .container{
+         padding: 0 15px;
+     }
+ }

@@ -15,8 +15,8 @@
     left: 58.50%;
 }
 .rel__description{
-    width: 857px;
-    height: 96px;
+    max-width: 857px;
+    max-height: 96px;
     color: var(--color-gray);
     margin: auto;
     font-size: 20px;
@@ -95,4 +95,12 @@
 .rel__last button:hover{
     border: 1px solid transparent;
     background-color: var(--color-orange);
+}
+
+
+@media screen and (max-width:576px){
+    .rel__description{
+        line-height: 25px;
+        height: 300px
+    }
 }

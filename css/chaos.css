@@ -35,7 +35,7 @@ img{
     font-weight: normal;
     font-size: 32px;
     line-height: 48px;
-    width: 489px;
+    max-width: 489px;
     color: var(--color-darkblue);
     margin-bottom: 16px;
     text-align: left;
@@ -43,7 +43,7 @@ img{
 .chaos__description--2{
     font-size: 20px;
     line-height: 32px;
-    width: 542px;
+    max-width: 542px;
     height: 96px;
     color: var(--color-gray);
     text-align: left;
@@ -72,4 +72,24 @@ img{
     width: 100%;
     background-color: var(--color-orange);
     transition: 0.3s;
+}
+
+@media screen and (max-width: 576px){
+    .chaos__title--2{
+      line-height: 37px;
+    }
+    .chaos__title--3{
+        text-align: center;
+        line-height: 37px;
+    }
+    .chaos__description--2{
+        text-align: center;
+        line-height: 22px;
+    }
+    .chaos__img{
+        margin-top: 10px;
+    }
+    .chaos__last{
+        text-align: center;
+    }
 }

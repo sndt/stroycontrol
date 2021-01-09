@@ -56,4 +56,9 @@
     color: var(--color-darkblue);
     background-color: var(--color-white);
   }
-  
+   @media screen and (max-width: 576px){
+     .nav{
+       display: none;
+     }
+     
+   }

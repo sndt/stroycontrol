@@ -36,3 +36,19 @@
 .col-7{
      width: 58.33%;
  }   
+
+ @media screen and (max-width: 576px) {
+    .btn-black,
+    .btn-white {
+      font-size: 12px;
+    }
+    .row {
+      flex-wrap: wrap;
+    }
+    .col-6 {
+      width: 100%;
+    }
+    .col-4 {
+      width: 100%;
+    }
+  }

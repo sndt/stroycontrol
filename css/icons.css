@@ -10,3 +10,14 @@ margin-right: 39px;
 text-align: center;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 576px){
+    .icons__img{
+        padding: 20px;
+        text-align: center;
+        display: block;
+    }
+    .icons__img :first-child{
+        padding-top: 100px;
+    }
+}
